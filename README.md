@@ -23,20 +23,6 @@ Single loop optimized solutions where applicable.
 
 Comments explaining each step for learning and revision.
 
-📂 Repository Structure
-Java-DSA-Problems/
-├── src/
-│   ├── primenumber/
-│   │   ├── PrimeNumber.java
-│   │   └── PalindromeNum.java
-│   ├── armstrong/
-│   │   └── ArmstrongArray.java
-│   └── other-problems/
-│       └── ...
-├── README.md
-└── .gitignore
-
-
 primenumber/ → Prime number & array-based prime problems
 
 palindrome/ → Palindrome number & array-based palindrome problems
