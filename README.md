@@ -1,26 +1,105 @@
-/*
-Problem: Classify Prime and Non-Prime Numbers from an Array
+Overview
 
-Write a Java program that takes an array of integers and separates them into 
-prime and non-prime numbers. 
+This repository contains classic Java DSA problems solved in a clean and professional way, focusing on core logic, manual implementations, and single-pass algorithms where possible.
+All solutions are written without relying on built-in shortcuts to strengthen problem-solving skills, logic building, and interview readiness.
 
-Requirements:
-1. Create an array of integers.
-2. Check each number:
-   - If it is a prime number, add it to the list of primes.
-   - If it is not prime, add it to the list of non-primes.
-3. Print the list of prime numbers.
-4. Print the list of non-prime numbers.
-5. Implement prime checking manually (do not use inbuilt methods).
+🔹 Features
 
-Example:
-Input Array: [1, 3, 2, 5, 6, 7, 8, 10, 121]
+Solutions written in plain Java with clear methods and functions.
 
-Output:
-Prime Numbers : 3 2 5 7 
-Non Prime Numbers : 1 6 8 10 121
+DSA-style approach for numbers, arrays, strings, and more.
 
-Hint: 
-- A prime number is greater than 1 and divisible only by 1 and itself.
-- Use optimization: Check divisibility up to the square root of the number.
-*/
+Each problem includes:
+
+Input array / numbers
+
+Step-by-step logic
+
+Prime, Palindrome, Armstrong, and more
+
+Individual prints + summary outputs
+
+Single loop optimized solutions where applicable.
+
+Comments explaining each step for learning and revision.
+
+📂 Repository Structure
+Java-DSA-Problems/
+├── src/
+│   ├── primenumber/
+│   │   ├── PrimeNumber.java
+│   │   └── PalindromeNum.java
+│   ├── armstrong/
+│   │   └── ArmstrongArray.java
+│   └── other-problems/
+│       └── ...
+├── README.md
+└── .gitignore
+
+
+primenumber/ → Prime number & array-based prime problems
+
+palindrome/ → Palindrome number & array-based palindrome problems
+
+armstrong/ → Armstrong number & array-based Armstrong problems
+
+other-problems/ → Future problems (sorting, arrays, strings, recursion, etc.)
+
+📝 Problems Covered
+
+Prime Numbers
+
+Single number check
+
+Array of numbers → classify primes & non-primes
+
+Palindrome Numbers
+
+Single number check
+
+Array of numbers → classify palindromes & non-palindromes
+
+Armstrong Numbers
+
+Single number check
+
+Array of numbers → classify Armstrong & non-Armstrong numbers
+
+(Future)
+
+Factorial, Fibonacci, Sorting, Searching
+
+String reversal, Anagrams, Substrings
+
+Recursion problems, Backtracking
+
+🔧 How to Run
+
+Clone the repository:
+
+git clone https://github.com/YourUsername/Java-DSA-Problems.git
+
+
+Open in NetBeans / IntelliJ / Eclipse
+
+Run the main() method of the problem you want to execute
+
+Observe output in console
+
+💡 Tips
+
+All solutions are written manually without built-in helper methods for learning clarity.
+
+Each solution prints:
+
+Individual results
+
+Summary output (e.g., all primes, palindromes, Armstrong numbers)
+
+You can add more problems in separate packages or folders to extend the repo.
+
+⭐ Contribution
+
+Feel free to add more Java problems, implement optimized solutions, or improve existing code.
+
+Maintain the structure and naming conventions for readability.
